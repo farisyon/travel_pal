@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Travel Website</title>
+	<link rel="stylesheet" type="text/css" href="meal.css">
+</head>
+<body>
+	<header>
+		<h1>CHINA</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="weather.html">Weather</a></li>
+				<li><a href="meal.html">Meal</a></li>
+				<li><a href="contact.html">Contact</a></li>
+                <li><img src="chinese-flag.jpg" alt="Chinese Flag" class="flag"></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Top Chinese Food</h2>
+        <form class="meal-form">
+            <label for="meal">Type your meal:</label>
+            <input type="text" id="meal" name="meal">
+            <button type="submit">Submit</button>
+          </form>
+          
+	</main>
+	<div class="food-container">
+		<div class="food-item">
+			<img src="beef.jpg" alt="">
+			<h3>Szechuan Beef</h3>
+		</div>
+		<div class="food-item">
+			<img src="pork.jpg" alt="">
+			<h3>Sweet and Sour Pork</h3>
+		</div>
+		<div class="food-item">
+			<img src="soup.jpg" alt="">
+			<h3>Egg Drop Soup</h3>
+		</div>
+		<div class="food-item">
+			<img src="tso.jpg" alt="">
+			<h3>General Tso's Chicken</h3>
+		</div>
+		<div class="food-item">
+			<img src="wonton.jpg" alt="">
+			<h3>Wontons</h3>
+		</div>
+		<div class="food-item">
+			<img src="kungpao.jpg" alt="">
+			<h3>Kung Pao Chicken</h3>
+		</div>
+        <div class="food-item">
+			<img src="fun.jpg" alt="">
+			<h3>Shrinp Chow Fun</h3>
+		</div>
+        <div class="food-item">
+			<img src="tofu.jpg" alt="">
+			<h3>Ma Po Tofu</h3>
+		</div>
+	</div>
+    <div id="meal-details"></div>
+	<footer>
+		<p>&copy; My Travel Website. All rights reserved.</p>
+	</footer>
+	<script src="meal.js"></script>
+</body>
+</html>

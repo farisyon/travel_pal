@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Travel Website</title>
+	<link rel="stylesheet" type="text/css" href="weather.css">
+</head>
+<body>
+	<header>
+		<h1>CHINA</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="weather.html">Weather</a></li>
+				<li><a href="meal.html">Meal</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><img src="chinese-flag.jpg" alt="Chinese Flag" class="flag"></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+        <form id="city-form">
+          <label for="city-input">Enter a city:</label>
+          <input type="text" id="city-input" name="city" placeholder="e.g. Shanghai">
+          <button type="submit">Get weather</button>
+        </form>
+        <section id="weather">
+          <div id="cityNotFound" style="display:none">City not found</div>
+        </section>
+      </main>     
+      <script src="weather.js"></script> 
+	<footer>
+		<p>&copy; My Travel Website. All rights reserved.</p>
+	</footer>
+</body>
+</html>
